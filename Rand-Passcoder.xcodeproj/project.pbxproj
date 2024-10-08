@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8877BD352CB584E9004C2918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8877BD182CB584B1004C2918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8877BD1F2CB584B2004C2918;
+			remoteInfo = "Rand-Passcoder";
+		};
+		8877BD3F2CB584E9004C2918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8877BD182CB584B1004C2918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8877BD1F2CB584B2004C2918;
+			remoteInfo = "Rand-Passcoder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8877BD202CB584B3004C2918 /* Rand-Passcoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rand-Passcoder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8877BD342CB584E9004C2918 /* Rand-PasscoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rand-PasscoderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8877BD3E2CB584E9004C2918 /* Rand-PasscoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rand-PasscoderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8877BD462CB584EA004C2918 /* Exceptions for "Rand-Passcoder" folder in "Rand-Passcoder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8877BD1F2CB584B2004C2918 /* Rand-Passcoder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8877BD222CB584B3004C2918 /* Rand-Passcoder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8877BD462CB584EA004C2918 /* Exceptions for "Rand-Passcoder" folder in "Rand-Passcoder" target */,
+			);
+			path = "Rand-Passcoder";
+			sourceTree = "<group>";
+		};
+		8877BD372CB584E9004C2918 /* Rand-PasscoderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Rand-PasscoderTests";
+			sourceTree = "<group>";
+		};
+		8877BD412CB584E9004C2918 /* Rand-PasscoderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Rand-PasscoderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8877BD1D2CB584B2004C2918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD312CB584E9004C2918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD3B2CB584E9004C2918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8877BD172CB584B1004C2918 = {
+			isa = PBXGroup;
+			children = (
+				8877BD222CB584B3004C2918 /* Rand-Passcoder */,
+				8877BD372CB584E9004C2918 /* Rand-PasscoderTests */,
+				8877BD412CB584E9004C2918 /* Rand-PasscoderUITests */,
+				8877BD212CB584B3004C2918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8877BD212CB584B3004C2918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8877BD202CB584B3004C2918 /* Rand-Passcoder.app */,
+				8877BD342CB584E9004C2918 /* Rand-PasscoderTests.xctest */,
+				8877BD3E2CB584E9004C2918 /* Rand-PasscoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8877BD1F2CB584B2004C2918 /* Rand-Passcoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8877BD472CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-Passcoder" */;
+			buildPhases = (
+				8877BD1C2CB584B2004C2918 /* Sources */,
+				8877BD1D2CB584B2004C2918 /* Frameworks */,
+				8877BD1E2CB584B2004C2918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8877BD222CB584B3004C2918 /* Rand-Passcoder */,
+			);
+			name = "Rand-Passcoder";
+			packageProductDependencies = (
+			);
+			productName = "Rand-Passcoder";
+			productReference = 8877BD202CB584B3004C2918 /* Rand-Passcoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8877BD332CB584E9004C2918 /* Rand-PasscoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8877BD4C2CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-PasscoderTests" */;
+			buildPhases = (
+				8877BD302CB584E9004C2918 /* Sources */,
+				8877BD312CB584E9004C2918 /* Frameworks */,
+				8877BD322CB584E9004C2918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8877BD362CB584E9004C2918 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8877BD372CB584E9004C2918 /* Rand-PasscoderTests */,
+			);
+			name = "Rand-PasscoderTests";
+			packageProductDependencies = (
+			);
+			productName = "Rand-PasscoderTests";
+			productReference = 8877BD342CB584E9004C2918 /* Rand-PasscoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8877BD3D2CB584E9004C2918 /* Rand-PasscoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8877BD4F2CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-PasscoderUITests" */;
+			buildPhases = (
+				8877BD3A2CB584E9004C2918 /* Sources */,
+				8877BD3B2CB584E9004C2918 /* Frameworks */,
+				8877BD3C2CB584E9004C2918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8877BD402CB584E9004C2918 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8877BD412CB584E9004C2918 /* Rand-PasscoderUITests */,
+			);
+			name = "Rand-PasscoderUITests";
+			packageProductDependencies = (
+			);
+			productName = "Rand-PasscoderUITests";
+			productReference = 8877BD3E2CB584E9004C2918 /* Rand-PasscoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8877BD182CB584B1004C2918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8877BD1F2CB584B2004C2918 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					8877BD332CB584E9004C2918 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8877BD1F2CB584B2004C2918;
+					};
+					8877BD3D2CB584E9004C2918 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8877BD1F2CB584B2004C2918;
+					};
+				};
+			};
+			buildConfigurationList = 8877BD1B2CB584B1004C2918 /* Build configuration list for PBXProject "Rand-Passcoder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8877BD172CB584B1004C2918;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8877BD212CB584B3004C2918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8877BD1F2CB584B2004C2918 /* Rand-Passcoder */,
+				8877BD332CB584E9004C2918 /* Rand-PasscoderTests */,
+				8877BD3D2CB584E9004C2918 /* Rand-PasscoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8877BD1E2CB584B2004C2918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD322CB584E9004C2918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD3C2CB584E9004C2918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8877BD1C2CB584B2004C2918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD302CB584E9004C2918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8877BD3A2CB584E9004C2918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8877BD362CB584E9004C2918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8877BD1F2CB584B2004C2918 /* Rand-Passcoder */;
+			targetProxy = 8877BD352CB584E9004C2918 /* PBXContainerItemProxy */;
+		};
+		8877BD402CB584E9004C2918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8877BD1F2CB584B2004C2918 /* Rand-Passcoder */;
+			targetProxy = 8877BD3F2CB584E9004C2918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8877BD482CB584EA004C2918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rand-Passcoder/Rand_Passcoder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rand-Passcoder/Preview Content\"";
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rand-Passcoder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-Passcoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8877BD492CB584EA004C2918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rand-Passcoder/Rand_Passcoder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rand-Passcoder/Preview Content\"";
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rand-Passcoder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-Passcoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8877BD4A2CB584EA004C2918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8877BD4B2CB584EA004C2918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8877BD4D2CB584EA004C2918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-PasscoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rand-Passcoder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rand-Passcoder";
+			};
+			name = Debug;
+		};
+		8877BD4E2CB584EA004C2918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-PasscoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rand-Passcoder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rand-Passcoder";
+			};
+			name = Release;
+		};
+		8877BD502CB584EA004C2918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-PasscoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rand-Passcoder";
+			};
+			name = Debug;
+		};
+		8877BD512CB584EA004C2918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM83QF7KLN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepSoftware.Rand-PasscoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rand-Passcoder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8877BD1B2CB584B1004C2918 /* Build configuration list for PBXProject "Rand-Passcoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8877BD4A2CB584EA004C2918 /* Debug */,
+				8877BD4B2CB584EA004C2918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8877BD472CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-Passcoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8877BD482CB584EA004C2918 /* Debug */,
+				8877BD492CB584EA004C2918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8877BD4C2CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-PasscoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8877BD4D2CB584EA004C2918 /* Debug */,
+				8877BD4E2CB584EA004C2918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8877BD4F2CB584EA004C2918 /* Build configuration list for PBXNativeTarget "Rand-PasscoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8877BD502CB584EA004C2918 /* Debug */,
+				8877BD512CB584EA004C2918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8877BD182CB584B1004C2918 /* Project object */;
+}
